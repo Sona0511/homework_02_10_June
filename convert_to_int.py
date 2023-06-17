@@ -2,8 +2,8 @@
 #Throw an exception if the conversion is not possible.
 def convert_to_int(string):
     try:
-        integer=int(string)
-        return integer
+        conversion=int(string)
+        return conversion
     except ValueError:
         raise Exception("not possible")
 
